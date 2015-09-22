@@ -1,0 +1,19 @@
+{
+  "name": "public",
+  "version": "0.0.0",
+  "authors": [
+    "Jesus Sanchez Guerrero <jesus_sguerrero@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.0.0",
+    "iron-a11y-announcer": "PolymerElements/iron-a11y-announcer#~1.0.2"
+  }
+}
