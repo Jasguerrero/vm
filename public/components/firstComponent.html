@@ -1,0 +1,41 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="first-component">
+    <style>
+        h2{
+            color: black;
+        }
+        div {
+            display: inline-block;
+            border-radius: 8px;
+            padding: 4px;
+            width: 100%;
+        }
+    </style>
+    <template>
+        <div>
+            <h2>{{title}}</h2>
+        </div>
+    </template>
+</dom-module>
+
+<dom-module id="paper-card">
+    <style>
+        :host{
+            background-color: red;
+            @apply(--paper-card-header-color);
+        }
+    </style>
+</dom-module>
+
+<script>
+    Polymer({
+        is: "first-component",
+        properties:{
+            title: {
+                type: String,
+                value: "Post it"
+            }
+        }
+    });
+</script>
